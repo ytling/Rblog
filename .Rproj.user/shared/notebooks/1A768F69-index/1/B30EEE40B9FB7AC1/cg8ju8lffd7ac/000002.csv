@@ -1,0 +1,4 @@
+"0","tmp_d<- six_city %>% "
+"0"," bind_cols(resid= resid(ols_mdl)) %>% "
+"0"," arrange(id, time)"
+"0",""

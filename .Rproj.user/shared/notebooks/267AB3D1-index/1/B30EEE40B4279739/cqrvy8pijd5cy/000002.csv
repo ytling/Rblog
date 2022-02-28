@@ -1,0 +1,4 @@
+"0","## Next, load in the documents (the corpus)"
+"0","NovelsCorpus <- Corpus(DirSource(""Novels_Corpus""))"
+"2","Error in DirSource(""Novels_Corpus"") : empty directory
+"

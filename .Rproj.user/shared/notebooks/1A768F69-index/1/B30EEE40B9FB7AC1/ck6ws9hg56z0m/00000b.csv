@@ -1,0 +1,13 @@
+"0","library(magrittr)"
+"0","tmp_d2 %>% "
+"0","  select(proc_var) %>% "
+"0","  unnest() %$% "
+"0","  mean(proc_var, na.rm = TRUE)"
+"2","Adding missing grouping variables: `id`
+"
+"2","`cols` is now required when using unnest().
+Please use `cols = c(proc_var)`"
+"1","[1]"
+"1"," 0.02702828"
+"1","
+"

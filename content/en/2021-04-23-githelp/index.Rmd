@@ -1,0 +1,79 @@
+---
+title: Git help
+author: ''
+date: '2021-05-03'
+slug: githelp
+categories:
+  - learn
+tags:
+  - git
+---
+
+Git is a free and open source distributed version control system. 
+
+1. working directory.  
+2. staging area(index).
+3. git repository.
+
+three different objects generate from git cmd and describe in Hash:  
+
+* blob: only save the content of the file instead the file name. 
+* tree: the file name. 
+* commit: the first commit also called root commit.
+
+#  git basic
+
+`git init`: generate a file called /.git/ used  ls -a to see all the hided files.  
+`git add`:  change the files from working directory to staging area. 
+`git commit`: put into the repository.  
+`git config -l`: show our local config.  
+`cat ~/.gitconfig`: local is the son of the global father. 
+
+`git status`:  Show the working tree status
+
+1. _Changes to be committed_: working directory has the same files as the index
+2. _Untracked files_: in working dictionary but not in the index. we can use `git add.` to change to case1
+3. _modified files_: the file with the same name but are different in the working and index 
+4. _nothing to commit_ the new created folder does not make any commit change. 
+
+`git ls-files - s`: show information about files in the index or working tree
+
+`tree .git/objects`: return the objects. 
+
+`git cat-files`: check the objects. 
+
+`git cat-files -t dir+xxx` :return type (6 head digits of the object)
+
+`git cat-files -p dir+xxx` : return contents
+
+`git log dir+xxx`: check the log file with input the head of the SHA1(log means the output from the operation system here means the SHA)
+
+
+##  branch
+
+`.git/refs`: contains objects (SHA-1) value. To check out, it will contain 
+
+```
+.git/refs
+.git/refs/heads
+.git/refs/tags
+```
+
+WHY? 
+it would be easier if you had a file in which you could store that SHA-1 value
+under a simple name so you could use that simple name rather than the raw SHA-1 value. 
+these simple names are called “references” or “refs”; 
+You can find the files that contain those SHA-1 values in the .git/refs directory. 
+The question now is, when you run git branch <branch>, how does Git know the SHA-1 of the last commit? 
+The answer is the HEAD file.
+
+`git branch`: check the branch and also updated the reference contains the last commit to the new branch. 
+`git checkout`: change the current active branch.
+
+# stash
+[git](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
+do not want to commit my changes in index, want to pull first, to test the changes others commit to see if it any conflicts
+so use the stash to a place,`git stash`. After pulling any version in the main remote repository, then put the staging files back changes to be committed,`git stash apply`. if there is any conflict: 
+1. `git restore --staged <file>`choose to restore the change back to working dictionary.
+2. `git add/rm <files>`  choose to solve the conflict 
+
