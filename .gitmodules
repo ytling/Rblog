@@ -1,0 +1,6 @@
+[submodule "public/ytling.github.io"]
+	path = public/ytling.github.io
+	url = https://github.com/ytling/ytling.github.io.git
+[submodule "ytling.github.io"]
+	path = ytling.github.io
+	url = https://github.com/ytling/ytling.github.io.git
