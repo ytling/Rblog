@@ -13,7 +13,8 @@ ignoreFiles:
 permalinks:
   cn: /:year/:month/:day/:slug/
   en: /:year/:month/:day/:slug/
-  
+
+publishdir: "ytling.github.io"
   
 menu: # this is showing the 
   main:
