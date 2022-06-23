@@ -7,3 +7,5 @@ categories:
   - life
 tags: []
 ---
+
+去死吧
