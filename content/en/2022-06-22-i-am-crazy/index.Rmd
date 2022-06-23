@@ -1,0 +1,9 @@
+---
+title: I am crazy
+author: ''
+date: '2022-06-22'
+slug: i-am-crazy
+categories:
+  - life
+tags: []
+---
