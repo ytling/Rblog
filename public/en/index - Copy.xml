@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on A Hugo website</title>
+    <link>/en/</link>
+    <description>Recent content in Ens on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory Data Analyst (SQL)</title>
+      <link>/2022/06/21/exploratory-data-analyst-sql/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/06/21/exploratory-data-analyst-sql/</guid>
+      <description>Exploratory Data Analyst applies to the following cases:vague targets or problems to the large data set
+large data set needs cleaning
+Benefit of the exploratory data analyst:help find the inner pattern or relationship through the data
+help to categorize the variables for the further analysis. (missing, outlier etc.)
+Three type of dataNumeric dataWe would like to know the min and max, average, variance and correlation and percentile to this type of data.</description>
+    </item>
+    
+    <item>
+      <title>Meta Analysis</title>
+      <link>/2021/07/09/meta-analysis/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/07/09/meta-analysis/</guid>
+      <description>ref
+NOTE: most words are from the ref above, and it is a mini summary from my own perspective. Since I am truly not able to find the better word to describe.
+Meta Analysis is a method used the data results from individual studies.Studies are coming from computerized Literature Search of a database such as PudMed etc.The auto search are based on the participants, interventions, comparison and study designs indicated in the contrasts of the scientific papers.</description>
+    </item>
+    
+    <item>
+      <title>pan</title>
+      <link>/2021/06/11/xxxx/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/06/11/xxxx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git help</title>
+      <link>/2021/05/03/githelp/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/05/03/githelp/</guid>
+      <description>Git is a free and open source distributed version control system.
+working directory.
+staging area(index).git repository.three different objects generate from git cmd and describe in Hash:
+blob: only save the content of the file instead the file name.tree: the file name.commit: the first commit also called root commit.git basicgit init: generate a file called /.git/ used ls -a to see all the hided files.</description>
+    </item>
+    
+    <item>
+      <title>cv&#43;resume</title>
+      <link>/2021/04/22/resume/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/04/22/resume/</guid>
+      <description>Site: The Bishop Strachan SchoolPosition: Data Analyst
+Dear Manager
+I am writing to express my keen interest in Data Analyst position in the Bishop Strachan School.
+I graduated from the Bio-statistics master program in the year 2019 and started to work in TD bank as Data Support Analysis. My passion and motivation came from assisting shareholder make decision from data-driven outcomes and tutoring in subject: elementary programming, math, elementary statitiscs.</description>
+    </item>
+    
+    <item>
+      <title>Experimental Design </title>
+      <link>/2021/03/26/experimental-design/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/03/26/experimental-design/</guid>
+      <description>Some concepts and examples in Experimental Design
+experimental study: a study subject is assigned the treatmentobservational study: a study with subject is observed or measuredexperimental unit: in an experimental study, basic entity can be assigned is called experimental unit. The experimental unit is people, called subject. At observational and experimental study, subjects are called participants.
+Experimental DesignA good experimental design will need:1. treatments are random assigned to the experimental unit.</description>
+    </item>
+    
+    <item>
+      <title>Missing Data</title>
+      <link>/2021/03/24/missing-data/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/03/24/missing-data/</guid>
+      <description>Missing dataWhat types of missing data?Missing completely at randomMissing at randomMissing not at randomWhat technique to handle missing data?Listwise or case deletion：assumption：sample size are large
+con: simple implementpro: loss given informationPairwise deletion?assumption： not missing here and there,con：compare with the listwise, the lost information reducedpro：cause inaccurate stand error as the knowingMean substitutionn?assumption:con： increase the sample sizepro: underestimate the errorsRegression imputationassumption: the value of other data are not missingcon: increase the sample size, reduce the stand errorpro: add extra effort into finding the fitted regression modelLast observation carried forwardassumption: the outcome remains unchanged by the missing datacon: easy communicate , typically used method on longitudinal datapro: need meet the assumptionMaximum likelihoodassumption: known distribution, etc.</description>
+    </item>
+    
+    <item>
+      <title>Blog Down</title>
+      <link>/2021/03/21/blog/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/03/21/blog/</guid>
+      <description>get start:hugo go:configContentFront matterTemplates_default/list.html:terms.htmlPartials/.stores the templates reused in other html pages by the {{ partial }} function.footer.htmlCustom layoutsStatic filesLastlyAddin ….get start:here we go. already started
+hugo go:a tool we we can leverage to generate the static website. The layout below follows my master
+configconfig.*: in the format of . toml or yaml, the file speak globally.</description>
+    </item>
+    
+    <item>
+      <title>SAS</title>
+      <link>/2021/03/21/sql-sas/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/03/21/sql-sas/</guid>
+      <description>SQLYou are given two non-empty linked lists representing two non-negative integers.
+The digits are stored in reverse order, and each of their nodes contains a single digit.
+Add the two numbers and return the sum as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+source
+For this problem we will begin with the sashelp.baseball data set.Create a new table called newtable in the work library that has exactly the same rows as the sashelp.</description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>/2021/03/18/sql/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/03/18/sql/</guid>
+      <description>DEFINATION OF RELATION TABLESHOW TO CHANGE THE ENTITY TO A SCHEMASCASE WHENSUBQUERYCOMMON TABLE EXPRESS (cte)WINDOW FUNROLLUP and CUBETABLESAMPLEUNPIVOT:ROW TO COLUMNPIVOT:COLUME TO ROWSome information contains from Datacamp, you can use my refer to get started and learn new technique together.
+DEFINATION OF RELATION TABLESentity: (table) the object store the information
+attribute: column in a table to describe the part of the information</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/2020/12/01/hello-r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/2020/12/01/hello-r-markdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>/2016/12/30/a-plain-markdown-post/</link>
+      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      
+      <guid>/2016/12/30/a-plain-markdown-post/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc. There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+    </item>
+    
+  </channel>
+</rss>

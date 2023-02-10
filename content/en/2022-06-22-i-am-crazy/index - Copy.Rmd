@@ -1,0 +1,61 @@
+---
+title: review my statistics
+author: ''
+date: '2022-06-22'
+slug: i-am-crazy
+categories:
+  -  Statistics
+tags: []
+---
+
+
+# Multicollinearity 
+
+1. what is multi-col-linearity 
+
+2. the problem of having multi-col-linearity 
+
+3. what cause the multi-col-linearity
+
+4. using the VIF
+
+5. Solve the multicollinearity
+
+---
+
+1. 
+
+muticollinearity is observation on the data when two or more variables are highly correlated with each other.
+
+
+2. 
+
+- makes the interpretation of the variable to the target variable hard. For example, one unit of increase on x1 will case xxx increase/decrease on target variable when multicollearity happens. 
+
+3. 
+
+- unremovable variable or the vairbales are important in predict 
+
+- new variable created derived or calculated from other variables.
+
+- identical or scaler variable 
+
+- dummy variable trap: a variable has two level, this variable is created as two dummy variables to used in the dataset.
+
+
+4. 
+
+VIF: Variance inflate factor ${1}/{1-r_i^2}$ 5-10 indicate the large mul-ticol-linearity. 
+
+
+5. 
+
+-  drop interatively
+
+- combine the correlated variables into one and drop the others. 
+
+
+NOTE: 1. when one single variable 's effect is important to the target variable. 2. if the mul-ti-col-linearity is not important to the variable that interested, no need t remove. 
+
+(ref)[https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/]
+
