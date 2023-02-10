@@ -1,23 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>git on A Hugo website</title>
-    <link>/tags/git/</link>
-    <description>Recent content in git on A Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git help</title>
-      <link>/2021/05/03/githelp/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/2021/05/03/githelp/</guid>
-      <description>Git is a free and open source distributed version control system.
-working directory.
-staging area(index).git repository.three different objects generate from git cmd and describe in Hash:
-blob: only save the content of the file instead the file name.tree: the file name.commit: the first commit also called root commit.git basicgit init: generate a file called /.git/ used ls -a to see all the hided files.</description>
-    </item>
-    
-  </channel>
-</rss>
