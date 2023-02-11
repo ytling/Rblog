@@ -1,4 +1,0 @@
-"0",""
-"0","# %>% "
-"0","#  mutate(variogram_d= map(data, generate_variogram_d, tvar= time, yvar= resid),"
-"0","#  excl_i = map(id, function(idx) filter(tmp_d, id!= idx)))"

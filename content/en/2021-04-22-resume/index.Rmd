@@ -10,23 +10,18 @@ output:
     toc_depth: 3
     css: "/css/my-resume.css"
 ---
-Site: The Bishop Strachan School
-Position: Data Analyst
+
+Looking for position: Data Analyst
  
 Dear Manager 
 
-I am writing to express my keen interest in Data Analyst position in the Bishop Strachan School.
+I am writing to express my keen interest in Data Analyst position in the [Company Name].
 
 I graduated from the Bio-statistics master program in the year 2019 and started to work in TD bank as Data Support Analysis. My passion and motivation came from assisting shareholder make decision from data-driven outcomes and tutoring in subject: elementary programming, math, elementary statitiscs. I have both experience in tutoring both students in lower level university and elementary school. I belief the best way to learn is trying to teach. 
 
 In the past 6 years, I had gained data analysis experience in many topics. The most regarded was the analysis the effect of parental education to the children sodium intake. Additionally, I attended cases competition and made poster presentation in Statistics Society Conference, year 2018,2019.  Besides, my qualifications include a strong knowledge of data analysis with R and algorithms developing, code packing, writing and a complete understanding of the organizational data schema. I am willing to work with investigators and colleagues in your educational organization.
 
 Outsite the wokring hour, I love reading people's blogs and writing my own to share ideas and make friends. Also, I master in Guzheng( a cheese instrument) and trying hard to learn Ukulele. If you would like to know me,  please reach out by email ytlinglin@gmail.com or calling 14168411903. I look forward to your reply.
-
-Sincerely
-
-Ling Lin
-
 
 # KEY
 
@@ -37,13 +32,12 @@ Ling Lin
 
 # PROFESSIONAL EXPERIENCE
 
-## Senior Data Analyst, TD Securities
-
+## Senior Data Analyst, TD Securities  
 ### 2020.May-2020.Dec
 
 Built dashboards for detecting data accuracy and performing quality checks and performing ad-hoc analysis and data extraction requests for reporting. Wrote python scripts to build tools for support team automated reports for downstream users based on any SQL query and distribution list. Wrote python scripts to find any computing error from many EOD batch job log files and catch any API initialization issue. Enabled employee provision by assisting managers onboarding data and collecting related new hire information; document the process.
 
-## Data Analyst, TD Securities
+## Data Analyst, TD Securities  
 ### 2019.Sep-2020.Apr
 Worked on a CIHR funded project to analyze the 2004 and 2015 Canadian Community Health Survey (CCHS). The analyses examined the association of sodium consumption of children (3-9years) across parental education. Used SAS to clean data and filter large multi data set contexts of large nutrition surveys. Built a table of result from un-adjusted, partially and fully adjusted model coefficient. 
 

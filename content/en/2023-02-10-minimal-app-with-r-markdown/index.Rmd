@@ -1,0 +1,40 @@
+---
+title: Minimal App with R markdown
+author: ''
+date: '2023-02-10'
+slug: minimal-app-with-r-markdown
+categories: []
+tags: []
+---
+
+some feedback from yihui's talk on [youtube](https://www.youtube.com/watch?v=fiy32LjgGUE).
+
+I tried the code he present on the video. I can see it did minimized the file size without affecting the feeling of the web browsers. 
+
+One important change is to use the `output: html_format` to replace the `output: html_document` on the YAML metadata. This has been built into a GUI if you used the R studio by creating a new rmarkdown specifying the html output. 
+
+One part that interests me the most is to turn the html r markdown output into a slide by using the css. 
+
+The example code can be below:
+
+```{css}
+
+.html {
+    scroll-snap-type: y mandatory;
+}
+
+.slide  {
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+```
+
+The above code is to identify what is __slide__ mean for every time it is called. Please note to set the `echo` to __FALSE__. 
+
+After copying this code into the R markdown file, you will need `<div class = "slide">` at the beginning of the section of the document and `</div>` at the end of the section. 
+
+
+
+
+
+
