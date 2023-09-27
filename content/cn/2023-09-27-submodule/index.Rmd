@@ -6,10 +6,14 @@ slug: submodule
 categories: []
 tags: []
 ---
-这次的返工就一定要把过程记录下来了。
-1. clone with submodule 
+这次的返工就一定要把过程记录下来了。  
+1. clone with submodule   
 2. cd ./submodule
-3. add. commit -m push. 
-4. cd ..
-5. git submodule update --remote submodule
-6. add . commit -m push 
+3. git add .   
+   git commit -m   
+   git push origin HEAD:main 
+4. cd .. # change to the main module  
+5. git submodule update --remote submodule # sync the the current change in submodule  
+6. git add .   
+   git commit -m   
+   git push  \\
